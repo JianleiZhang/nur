@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   rime-ice = pkgs.callPackage ./pkgs/rime-ice { };
+  dingtalk = pkgs.callPackage ./pkgs/dingtalk { };
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
