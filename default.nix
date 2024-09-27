@@ -15,7 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   rime-ice = pkgs.callPackage ./pkgs/rime-ice { };
-  caddy-cloudflare = = pkgs.callPackage ./pkgs/caddy-cloudflare { };
+  caddy-cloudflare = pkgs.callPackage ./pkgs/caddy-cloudflare { };
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
